@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0NipTbjYCwcd5v93lsaelC1G9DoC35J+XBc5QYbpUSBbPzdSEl+KGG/IuMzu41InB9kCtQ3l5A8bDZLweWWYFg==",
+  "success": true,
+  "projectFilePath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\WPFAppEmployee\\WPFAppEmployee.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sasha\\.nuget\\packages\\materialdesigncolors\\2.0.4\\materialdesigncolors.2.0.4.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\materialdesignthemes\\4.3.0\\materialdesignthemes.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
