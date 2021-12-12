@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using DAL_EntityFramework_;
 
 namespace WPFAppEmployee
 {
@@ -87,7 +88,8 @@ namespace WPFAppEmployee
                     txtBoxEmail.Background = Brushes.Transparent;
                 }
             } while (isLogin == true && isPass == true && isPass2 == true && isEmail == true);
-
+            EmployeeManager employeeManager = new EmployeeManager();
+            employeeManager.AddEmployee(login, pass, email);
         }
     }
 }

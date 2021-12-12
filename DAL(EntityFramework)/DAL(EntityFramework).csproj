@@ -53,7 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBContext.cs" />
+    <Compile Include="EmployeeManager.cs" />
+    <Compile Include="EntityContext\DBContext.cs" />
     <Compile Include="Migrations\202112100022596_CreateEmployee.cs" />
     <Compile Include="Migrations\202112100022596_CreateEmployee.designer.cs">
       <DependentUpon>202112100022596_CreateEmployee.cs</DependentUpon>

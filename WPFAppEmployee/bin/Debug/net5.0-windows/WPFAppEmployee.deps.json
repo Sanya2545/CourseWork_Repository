@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "WPFAppEmployee/1.0.0": {
         "dependencies": {
+          "DAL(EntityFramework)": "1.0.0",
           "MaterialDesignThemes": "4.3.0"
         },
         "runtime": {
@@ -32,6 +33,27 @@
             "fileVersion": "4.3.0.3"
           }
         }
+      },
+      "DAL(EntityFramework)/1.0.0": {
+        "dependencies": {
+          "Library_BLL": "1.0.0"
+        },
+        "runtime": {
+          "DAL(EntityFramework).exe": {}
+        }
+      },
+      "Library_BLL/1.0.0": {
+        "runtime": {
+          "Library_BLL.dll": {}
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.400.420.21404"
+          }
+        }
       }
     }
   },
@@ -54,6 +76,21 @@
       "sha512": "sha512-edXh0Hl2LukyEZN+REVFuN+gaaUFo6AfHSaBjuZ95k4Qz1TljcxnfCznMKkGaQoEsy5ryk85ZbeRY/tOzFmKxg==",
       "path": "materialdesignthemes/4.3.0",
       "hashPath": "materialdesignthemes.4.3.0.nupkg.sha512"
+    },
+    "DAL(EntityFramework)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library_BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

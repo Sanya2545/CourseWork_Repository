@@ -10,4 +10,8 @@
     <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DAL(EntityFramework)\DAL(EntityFramework).csproj" />
+  </ItemGroup>
+
 </Project>

@@ -23,3 +23,10 @@ D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\obj\Debug\net
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\obj\Debug\net5.0-windows\ref\WPFAppEmployee.dll
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\obj\Debug\net5.0-windows\WPFAppEmployee.pdb
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\obj\Debug\net5.0-windows\WPFAppEmployee.genruntimeconfig.cache
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\DAL(EntityFramework).exe
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\Library_BLL.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\EntityFramework.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\DAL(EntityFramework).pdb
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\DAL(EntityFramework).exe.config
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\Library_BLL.pdb
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\EntityFramework.xml

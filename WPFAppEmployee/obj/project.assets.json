@@ -25,6 +25,27 @@
         "build": {
           "build/MaterialDesignThemes.targets": {}
         }
+      },
+      "DAL(EntityFramework)/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Library_BLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL(EntityFramework).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL(EntityFramework).dll": {}
+        }
+      },
+      "Library_BLL/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Library_BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library_BLL.dll": {}
+        }
       }
     }
   },
@@ -83,10 +104,21 @@
         "materialdesignthemes.nuspec",
         "tools/VisualStudioToolsManifest.xml"
       ]
+    },
+    "DAL(EntityFramework)/1.0.0": {
+      "type": "project",
+      "path": "../DAL(EntityFramework)/DAL(EntityFramework).csproj",
+      "msbuildProject": "../DAL(EntityFramework)/DAL(EntityFramework).csproj"
+    },
+    "Library_BLL/1.0.0": {
+      "type": "project",
+      "path": "../Library_BLL/Library_BLL.csproj",
+      "msbuildProject": "../Library_BLL/Library_BLL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "DAL(EntityFramework) >= 1.0.0",
       "MaterialDesignThemes >= 4.3.0"
     ]
   },
@@ -120,7 +152,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj": {
+              "projectPath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj"
+            }
+          }
         }
       },
       "warningProperties": {

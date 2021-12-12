@@ -4,6 +4,34 @@
 
 
 
+ EmployeeManager employeeManager = new EmployeeManager();
+            employeeManager.AddEmployee(login, pass, email);
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Library_BLL
+{
+    public class Employee
+    {
+        public Employee(int id = 0, string login = "", string password = "", string email = "")
+        {
+
+        }
+        public int Id { get; set; }
+        public string Login { get; set; }
+        public string Password { get; set; }
+        public string Email { get; set; }
+    }
+}
+
+
 
 
 
@@ -13,17 +41,20 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.SqlServer
 using Library_BLL;
 
 namespace DAL_EntityFramework_
 {
     class DBContext : DbContext
     {
-
-        public DBContext()
+        protected override void OnConfiguring(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
+        public DBContext() : base ("DBCOntext")
         {
         }
         public DbSet<Employee> Employees { get; set; }
     }
 }
-	

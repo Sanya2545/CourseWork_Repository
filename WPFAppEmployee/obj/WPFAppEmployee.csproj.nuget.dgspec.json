@@ -4,6 +4,40 @@
     "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\WPFAppEmployee\\WPFAppEmployee.csproj": {}
   },
   "projects": {
+    "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj",
+        "projectName": "DAL(EntityFramework)",
+        "projectPath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\Library_BLL\\Library_BLL.csproj": {
+                "projectPath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\Library_BLL\\Library_BLL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\Library_BLL\\Library_BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\Library_BLL\\Library_BLL.csproj",
+        "projectName": "Library_BLL",
+        "projectPath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\Library_BLL\\Library_BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\WPFAppEmployee\\WPFAppEmployee.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,7 +64,11 @@
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj": {
+                "projectPath": "D:\\Study_NAU\\2 Course\\OOP - Practice\\CourseWork_3.0\\DAL(EntityFramework)\\DAL(EntityFramework).csproj"
+              }
+            }
           }
         },
         "warningProperties": {
