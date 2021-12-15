@@ -10,9 +10,10 @@ namespace DAL_EntityFramework_
 {
     class DBContext : DbContext
     {
-
-        public DBContext()
+        
+        public DBContext() : base ("DBContext")
         {
+            
         }
         public DbSet<Employee> Employees { get; set; }
     }
