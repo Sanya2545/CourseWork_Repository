@@ -29,4 +29,11 @@ D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\DAL(EntityFramework).pdb
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\DAL(EntityFramework).exe.config
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\Library_BLL.pdb
-D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\EntityFramework.xml
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\EntityFramework.SqlServer.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\WPFAppEmployee\bin\Debug\net5.0-windows\Library_BLL.dll.config

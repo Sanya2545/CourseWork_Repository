@@ -12,9 +12,16 @@ namespace DAL_EntityFramework_
         public void AddEmployee(string login = "", string password = "", string email = "")
         {
             Employee employee = new Employee(1, login, password, email);
-            DBContext dB = new DBContext();
-            dB.Employees.Add(employee);
-            dB.SaveChanges();
+            using (DBContext dB = new DBContext())
+            {
+                if(login != null && password != null && email != null)
+                {
+                    dB.Employees.Add(employee);
+                    dB.SaveChanges();
+
+                }
+            }
+                
         }
     }
 }

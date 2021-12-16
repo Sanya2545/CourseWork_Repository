@@ -4,3 +4,9 @@ D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\obj\Debug\Librar
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\obj\Debug\Library_BLL.csproj.CoreCompileInputs.cache
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\obj\Debug\Library_BLL.dll
 D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\obj\Debug\Library_BLL.pdb
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\bin\Debug\Library_BLL.dll.config
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\bin\Debug\EntityFramework.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\bin\Debug\EntityFramework.xml
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Study_NAU\2 Course\OOP - Practice\CourseWork_3.0\Library_BLL\obj\Debug\Library_BLL.csproj.CopyComplete

@@ -10,10 +10,9 @@ namespace DAL_EntityFramework_
 {
     class DBContext : DbContext
     {
-        
         public DBContext() : base ("DBContext")
         {
-            
+            Database.SetInitializer(new CreateDatabaseIfNotExists<DBContext>());
         }
         public DbSet<Employee> Employees { get; set; }
     }
